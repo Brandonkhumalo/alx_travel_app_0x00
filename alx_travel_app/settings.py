@@ -86,7 +86,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'alxtravelapp.wsgi.application'
+WSGI_APPLICATION = 'alx_travel_app.wsgi.application'
 
 CELERY_BROKER_URL = 'redis://localhost:6379/0'
 
